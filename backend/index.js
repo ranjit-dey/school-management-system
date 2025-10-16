@@ -15,7 +15,7 @@ app.use(express.json({ limit: "10mb" }));
 
 // --- CORS Configuration ---
 // Only allow your frontend’s Vercel domain
-const allowedOrigin = "http://localhost:3000"; 
+const allowedOrigin = "https://sms-frontend-hka7.onrender.com"; 
 
 const corsOptions = {
   origin: function (origin, callback) {
